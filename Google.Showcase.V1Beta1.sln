@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google.Showcase.V1Beta1", "Google.Showcase.V1Beta1\Google.Showcase.V1Beta1.csproj", "{2DEB3255-CFD0-4872-8875-F2037E1FABCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google.Api.Gax", "..\gax-dotnet\Google.Api.Gax\Google.Api.Gax.csproj", "{AF7B972C-2490-4FF0-AA04-29122507E1F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google.Api.Gax.Grpc", "..\gax-dotnet\Google.Api.Gax.Grpc\Google.Api.Gax.Grpc.csproj", "{AC1927DC-997F-4FB3-8696-449DBE55F788}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google.Api.Gax.Grpc.GrpcCore", "..\gax-dotnet\Google.Api.Gax.Grpc.GrpcCore\Google.Api.Gax.Grpc.GrpcCore.csproj", "{2F75E6F1-63CE-4DD6-915D-97B1CFD5D179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Showcase.V1Beta1.IntegrationTests", "Google.Showcase.V1Beta1.IntegrationTests\Google.Showcase.V1Beta1.IntegrationTests.csproj", "{856A4215-9199-4C9C-A554-603C02C0757D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DEB3255-CFD0-4872-8875-F2037E1FABCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEB3255-CFD0-4872-8875-F2037E1FABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEB3255-CFD0-4872-8875-F2037E1FABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEB3255-CFD0-4872-8875-F2037E1FABCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7B972C-2490-4FF0-AA04-29122507E1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7B972C-2490-4FF0-AA04-29122507E1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7B972C-2490-4FF0-AA04-29122507E1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7B972C-2490-4FF0-AA04-29122507E1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1927DC-997F-4FB3-8696-449DBE55F788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1927DC-997F-4FB3-8696-449DBE55F788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1927DC-997F-4FB3-8696-449DBE55F788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1927DC-997F-4FB3-8696-449DBE55F788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F75E6F1-63CE-4DD6-915D-97B1CFD5D179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F75E6F1-63CE-4DD6-915D-97B1CFD5D179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F75E6F1-63CE-4DD6-915D-97B1CFD5D179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F75E6F1-63CE-4DD6-915D-97B1CFD5D179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856A4215-9199-4C9C-A554-603C02C0757D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856A4215-9199-4C9C-A554-603C02C0757D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856A4215-9199-4C9C-A554-603C02C0757D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856A4215-9199-4C9C-A554-603C02C0757D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4398C23-19AA-44E6-B96C-9D3661F3F0D0}
+	EndGlobalSection
+EndGlobal
